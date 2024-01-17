@@ -19,3 +19,8 @@ const cannonsReady = (gunners) => {
     ? "Shiver me timbers!"
     : "Fire!";
 };
+
+console.log(
+  "cannonsReady: ",
+  cannonsReady({ Mike: "aye", Joe: "aye", Johnson: "aye", Peter: "aye" })
+);
